@@ -20,6 +20,7 @@ main {
 }
 .header__pop-up-btn {
   display: inline-block;
+  border-radius: 5px;
   color: #fff;
   font-size: 20px;
   padding: 8px 15px;
@@ -31,10 +32,7 @@ main {
 
 .block-1 {
   display: grid;
-  grid-template-columns: minmax(auto, 390px) minmax(auto, 590px) minmax(
-      auto,
-      160px
-    );
+  grid-template-columns: minmax(auto, 390px) minmax(auto, 590px) minmax(auto, 160px);
   grid-template-rows: minmax(198px, 1fr) 1fr;
   gap: 15px;
   margin-top: 15px;
@@ -55,7 +53,6 @@ main {
   font-size: 53px;
   color: #fff;
 }
-
 .block-1__item-4 {
   grid-column: 1/3;
 }
@@ -122,4 +119,4 @@ main {
   text-decoration: none;
   background-color: #7faff6;
   color: #fff;
-} /*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
